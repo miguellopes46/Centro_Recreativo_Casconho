@@ -1,0 +1,539 @@
+html, body {
+  height: 100%;
+  font-family: 'Fira Sans', 'Roboto', sans-serif;
+}
+
+/* Barra de navegação
+-----------------------------*/
+
+nav.navbar-transparente {
+  padding: 2px 0px;
+  background: #63C5DA;
+}
+
+#logo {
+  height: 5rem;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, .5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+  width: 1px;
+  background: white;
+  margin: 12px 15px;
+  display: inline;
+}
+
+/* Bar icons */
+
+.icons-r {
+  background-color: #f2f2f2;
+}
+
+.icons-r-text {
+  font-size: rem;
+}
+
+/*Notícias*/
+
+.hero-news {
+  background-image: url(../img/news/news-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#title-news {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+#title-news h2 {
+  width: 100%;
+  border-bottom: 1px solid #63C5DA;
+  line-height: 0.1em;
+}
+
+#title-news h2, #title-news span {
+  background: #fff;
+  padding: 0 10px;
+  color: #63C5DA;
+}
+
+.data-news {
+  font-size: 17px;
+  color: yellowgreen;
+}
+
+.opac:hover {
+  opacity: 0.6;
+}
+
+.more {
+  color: grey;
+  text-decoration: none;
+  margin-bottom: 2.5rem;
+}
+
+.btn-news {
+  background-color: #63C5DA;
+  font-size: 1.75rem;
+  color: white;
+  border: none;
+}
+
+/*EVENTOS* PPRINCIAPL*/
+
+.data-event {
+  font-size: 1.5rem;
+  color: yellowgreen;
+}
+
+#title-event {
+  margin-top: 5rem;
+  color: white;
+}
+
+.event-princ {
+  color: white;
+  font-size: 2rem;
+}
+
+#title-event h2 {
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+
+#title-event h2, #title-event span {
+  padding: 0 10px;
+  color: #ffffff;
+}
+
+.more-e {
+  color: #d9d9d9;
+  text-decoration: none;
+}
+
+/*Enquadramento Geográfico*/
+
+.text-geo {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  margin: 0;
+  text-indent: 2rem;
+  color: #595959;
+}
+
+.btn-map {
+  background-color: #63C5DA;
+  font-size: 1.1rem;
+  color: white;
+  border: none;
+}
+
+/*footer*/
+
+.texto-footer {
+  line-height: 3rem;
+  font-size: 1.2rem;
+  text-indent: 1rem;
+  color: #E8E8E8;
+}
+
+.tit-footer {
+  color: white;
+}
+
+.lista-footer {
+  font-size: 1.2rem;
+  color: #E8E8E8;
+}
+
+.ad-footer {
+  color: #E8E8E8;
+}
+
+.ad-footer:hover {
+  color: black;
+}
+
+/* other things */
+
+/*-----------------------
+-------------------------
+-------------------------
+
+ PÁGINA MEMBROS
+
+-------------------------
+-------------------------
+-------------------------*/
+
+.title-cargo h2 {
+  width: 100%;
+  font-size: 2.2rem;
+}
+
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  animation: fade 1s;
+}
+
+.nav-tab .btn {
+  color: #495057;
+}
+
+.btn.active {
+  font-weight: 500;
+}
+
+/* fade effect */
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}   
+
+/*-----------------------
+-------------------------
+-------------------------
+
+ PÁGINA Contactos
+
+-------------------------
+-------------------------
+-------------------------*/
+
+.title-contact {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.title-contact h2 {
+  width: 100%;
+  border-bottom: 1px solid #63C5DA;
+  line-height: 0.1em;
+  font-size: 2.5rem;
+}
+
+.title-contact h2, .title-contact span {
+  background: #fff;
+  padding: 0 10px;
+  color: #63C5DA;
+}
+
+.texto-contactos {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  color: #595959;
+}
+
+.texto-contact {
+  line-height: 2.8rem;
+  font-size: 1.2rem;
+  color: #595959;
+}
+
+
+/* Páginas NOTICIAS
+´--------------
+--------------
+-------------
+*/
+
+.title-news h2 {
+  width: 100%;
+  border-bottom: 1px solid #63C5DA;
+  line-height: 0.1em;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  color: black;
+}
+
+.title-news span {
+  background: #fff;
+  padding: 0 10px;
+  color: #63C5DA;
+}
+
+.subtitle-news {
+  color: #3F3B3B;
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.news-hov:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+.texto-news {
+  line-height: 2.5rem;
+  font-size: 1.2rem;
+  text-indent: 1rem;
+  color: #595959;
+}
+
+/*NOTICIA INDIVIDUAL!!!!!!!!*/
+
+.newticia-subtit {
+  font-size: 1.4rem;
+}
+.new-icon {
+  color: #4197AA;
+
+}
+
+
+/*Pontos de Interesse*/
+
+.title-interesse {
+    margin-top: 6rem;
+  margin-bottom: 3rem;
+
+}
+
+.title-interesse h2 {
+   width: 100%; 
+   border-bottom: 1px solid #63C5DA; 
+   line-height: 0.1em;
+   font-size: 2.5rem;
+} 
+
+.title-interesse h2, .title-interesse span{ 
+    background:#fff; 
+    padding:0 10px; 
+    color: #63C5DA;
+}
+
+.img-interesse {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.img-interesse:hover {opacity: 0.7;}
+
+/* ~Modal */
+.modal {
+
+  display: none;
+  position: fixed; 
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Imagem dentro do modal*/
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* legenda do modal da nora */
+#legenda {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+
+}
+
+/* Animation */
+.modal-content, #legenda {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* fechar Button */
+.fechar {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.fechar:hover,
+.fechar:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller devices */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+#legendaC {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+#imgCapela {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#imgCapela:hover {opacity: 0.7;}
+
+
+#legendaC {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+
+.fecharC {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.fecharC:hover,
+.fecharC:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*PONTOS DE INTERESSE---------
+--------
+------------
+------
+----------
+-----------------------*/
+
+
+
+
+
+
+
+
+/* Tipografia
+-----------------------------*/
+
+h1 {
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  margin-bottom: 50px;
+  color: black;
+}
+
+/* TAB */
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+  .btn-custom {
+    margin: 10px 15px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 3em;
+  }
+  .btn-custom {
+    margin: 10px 15px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h1 {
+    font-size: 5em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 6em;
+  }
+
+  .title-contact {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+  }
+}
